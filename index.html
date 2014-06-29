@@ -21,7 +21,7 @@
 
         <!-- If the query includes 'print-pdf', use the PDF print sheet -->
         <script>
-          if( window.location.search.match( /print-pdf/gi ) ) {
+          if( window.location.search.marotch( /print-pdf/gi ) ) {
             var link = document.createElement( 'link' );
                 link.rel = 'stylesheet';
                 link.type = 'text/css';
@@ -43,6 +43,7 @@
 
         $.get( "/slides/list.json", function( data ) {
               window.slidelength = data.length
+              $("#folienNummer").text("1/" + window.slidelength)
             });
 
         </script>
@@ -80,6 +81,38 @@
                     
                         
     <section data-html="slides/projektziel-bild.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/projektanalyse-ist.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/projektanalyse-soll.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/projektanalyse-soll-aufgabenapp.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/entscheidungsfindung.html"></section>
 
 
                     
