@@ -5,7 +5,6 @@
     "projektziel-bild.html",
     "projektanalyse-ist.html",
     "projektanalyse-soll.html",
-    "projektanalyse-soll-aufgabenapp.html",
     "projektanalyse-wirschaftlichkeit.html",
     "projektanalyse-wirtschaftlichkeit-amortisierung.html",
     "entscheidungsfindung.html",
@@ -16,5 +15,7 @@
     "durchfuhrung.html",
     "testing.html",
     "projektabschluss.html",
-    "projektabschluss-meeting.html"
+    "projektabschluss-meeting.html",
+    "loesung-aufgaben.html",
+    "loesung-webansicht.html"
 ]
