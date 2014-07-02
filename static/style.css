@@ -2,3 +2,8 @@
 .lastRow th,.lastRow td{
 	border-top: 2px solid black !important;
 }
+
+#notes {
+
+	font-size: 30px !important;
+}
